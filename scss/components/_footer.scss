@@ -1,0 +1,51 @@
+// ======================================
+//             Footer style
+// ======================================
+#footer-section {
+  background: #034b66;
+  padding: 30px 0;
+  width: auto;
+  position: relative;
+  height: auto;
+  width: 100%;
+  display: block;
+
+.container {
+  margin-left:3vw ;
+  margin-right:0 ;
+  max-width: 90%;
+  
+}
+.container:before{
+  display: table;
+  content: " ";
+}
+}
+
+
+// @media (min-width: 320px) {
+// }
+
+// @media (min-width: 768px) {
+//   .footer {
+//     color: $brown;
+//     margin: 0;
+//     padding: 0;
+//     width: 768px;
+//     padding-top: 20px;
+//   }
+// }
+
+// @media (min-width: 1280px) {
+//   .footer {
+//     color: $brown;
+//     margin: 0;
+//     padding: 0;
+//     width: 1280px;
+//     padding-top: 30px;
+//   }
+
+//   .f_categories {
+//     margin-left: -20px;
+//   }
+// }

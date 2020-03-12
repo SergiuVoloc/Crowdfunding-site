@@ -1,0 +1,104 @@
+
+// Sponsors tab:
+.sponsors{
+  background-color: ghostwhite;
+  div{
+    min-height:34px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%; 
+    }
+  }
+}
+
+// ======================================
+//                  Banner
+// ======================================
+
+.card-img-overlay {
+  h1 {
+    color: #fac716;
+    text-align: center;
+    margin-top: 2vw;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif !important;
+    font-size: 65px;
+    font-size: 5vw;
+    font-weight: 700;
+  }
+  p {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-size: 2vw;
+  }
+}
+
+// Work later with media quireies:
+// @media (min-width: 320px) {
+// }
+
+// @media (min-width: 768px) {
+//   .responsive {
+//     max-width: 768px;
+//     min-height: auto;
+//   }
+//   .banner {
+//     position: relative;
+//     h1 {
+//       font-family: "Lato - Extra Bold";
+//       font-size: 30px;
+//       width: max-content;
+//       color: white;
+//       position: absolute;
+//       top: 35%;
+//       left: 50%;
+//       transform: translate(-50%, -50%);
+//     }
+//     p {
+//       width: 267px;
+//       height: 31px;
+//       font-family: "Myriad Pro";
+//       font-size: 14px;
+//       text-align: center;
+//       color: white;
+//       font-weight: 400;
+//     }
+//   }
+// }
+
+// @media (min-width: 1280px) {
+//   .responsive {
+//     max-width: 1280px;
+//     min-height: auto;
+//   }
+
+//   .banner {
+//     position: relative;
+//     h1 {
+//       font-family: "Lato - Extra Bold";
+//       font-size: 48px;
+//       width: max-content;
+//       color: white;
+//       position: absolute;
+//       top: 35%;
+//       left: 50%;
+//       transform: translate(-50%, -50%);
+//     }
+//     p {
+//       width: 334px;
+//       height: auto;
+//       font-family: "Myriad Pro";
+//       font-size: 20px;
+//       text-align: center;
+//       color: white;
+//       font-weight: 400;
+//     }
+//   }
+// }

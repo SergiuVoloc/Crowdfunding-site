@@ -1,0 +1,45 @@
+{
+    "css.remoteStyleSheets": [
+        "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    ],
+    "git.ignoreMissingGitWarning": true,
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Default Dark+",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.iconTheme": "vscode-icons",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css"
+        },
+        {
+            "extensionName": ".min.css",
+            "format": "compressed",
+            "savePath": "/css"
+        }
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+        ".vscode/**"
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.autoprefix": [
+        "> 1%",
+        "last 2 versions"
+    ],
+    "editor.wordWrap": "on",
+    "liveServer.settings.port": 5501
+}

@@ -1,0 +1,102 @@
+// ======================================
+//             Navbar Styles
+// ======================================
+
+
+
+@media (min-width: 320px) {
+
+}
+
+@media (min-width: 992px) {
+  .navbar{
+    margin: 0px;
+    padding: 0px;
+    font-size: small;
+    font-weight:bold;
+  
+  .container {
+    margin: 10px;
+    padding: 5px;
+    .btn-group  {
+      padding: 0; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      display: block; /* Make the buttons appear below each other */
+    }
+    
+    .btn-group:not(:last-child) {
+      border-bottom: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group:hover {
+      background-color: #3e8e41;
+    }
+
+        button {
+          margin-left: 15px;
+          padding: 0px;
+          text-align: center;
+            a{
+              margin: 5px;
+              padding: 0px;
+            }
+        }
+        div{
+          ul{
+            li{
+              a{
+                margin-left: 20px;
+              }
+            }
+          }
+        }
+    }
+    .container{
+      width: 100%;
+      div{
+        margin: 0;
+      }
+    }
+
+    }
+  } 
+
+
+
+
+
+
+@media (min-width: 1200px) {
+  .navbar{
+    font-size: small;
+    font-weight:bold;
+    margin: 0px;
+    padding: 0px;
+    .container {
+      margin: 10px;
+      margin-left: 40px;
+      padding: 5px;
+      max-width: 1450px;
+        button {
+          margin-left: 15px;
+          padding: 0px;
+          text-align: center;
+            a{
+              margin: 5px;
+              padding: 0px;
+            }
+        }
+        div{
+          ul{
+            li{
+              a{
+                margin-left: 20px;
+              }
+            }
+          }
+        }
+    }
+  }
+  
+  }
