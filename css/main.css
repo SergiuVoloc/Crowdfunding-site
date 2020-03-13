@@ -23,8 +23,8 @@
     /* Prevent double borders */
   }
   .navbar .container button {
-    margin-left: 15px;
-    padding: 0px;
+    margin-left: 25px;
+    padding: 5px;
     text-align: center;
   }
   .navbar .container button a {
@@ -116,6 +116,10 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   font-size: 2vw;
+}
+
+.HowItWorks {
+  margin: 5% 0 5% 0;
 }
 
 .HowItWorks div h1 {
@@ -223,4 +227,8 @@
 /* Darker background on mouse-over */
 .social-media:hover {
   color: white;
+}
+
+* {
+  border: 1px solid #ff0000;
 }
