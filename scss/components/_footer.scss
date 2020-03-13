@@ -3,7 +3,7 @@
 // ======================================
 #footer-section {
   background: #034b66;
-  padding: 30px 0;
+  padding: 40px 0;
   width: auto;
   position: relative;
   height: auto;
@@ -11,17 +11,59 @@
   display: block;
 
 .container {
-  margin-left:3vw ;
-  margin-right:0 ;
-  max-width: 90%;
+  margin-left:10vw ;
+  margin-right:10% ;
+  max-width: 80%;
   
 }
 .container:before{
   display: table;
   content: " ";
 }
+.menu-footer1-container, .menu-footer2-container, .menu-footer3-container{
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+      a:hover{
+        color: white;
+      }
+  }
+}
+.footer-desc{
+  color: white;
+}
+.copy{
+  margin-left: -15px;
+  color: #fff;
+}
+
 }
  
+.widgettitle{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    min-height: 30px;
+
+}
+
+.social-media{
+  margin-left: 10px;
+  border: none;
+  font-size: 30px;
+  // color: white;
+  cursor: pointer;
+}
+  
+/* Darker background on mouse-over */
+.social-media:hover {
+  color: white;
+}
+
+
+
+
 
 // @media (min-width: 320px) {
 // }

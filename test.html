@@ -9,7 +9,10 @@
   <title>Crowdfunding</title>
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css" />
+
   <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="fonts/FontAwesome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 </head>
 
 <body>
@@ -19,10 +22,10 @@
       <a class="navbar-brand" href="#">
         <img src="img/logo.png" alt="logo" />
       </a>
-      <button class="btn-group btn-group-vertical btn-warning btn-outline-primary" type="button">
+      <button class="btn-main" type="button">
         <a class="navbar-brand d-none d-sm-block " href="#">Explore Projects</a>
       </button>
-      <button class="btn-group btn-group-vertical btn-warning btn-outline-primary" type="button">
+      <button class="btn-main" type="button">
         <a class="navbar-brand d-none d-sm-block " href="#">Start a Project</a>
       </button>
 
@@ -99,11 +102,11 @@
   </section>
 
   <!-- ====================== Footer ============================ -->
-  <footer style="background-color: #034b66" id="footer-section">
+  <footer id="footer-section">
     <div class="container">
       <div class="row">
         <div class="col-sm-2 col-xs-6 for-mobile-padding">
-          <div class="" id="footer-list">
+          <div id="footer-list">
             <div class="fwidget widget_nav_menu" id="nav_menu-2">
               <h4 class="widgettitle">Learn More</h4>
               <div class="menu-footer1-container">
@@ -181,61 +184,44 @@
           <p class="footer-desc"> GoGetFunding is a crowdfunding website that lets you raise money for anything that
             matters to you. From personal causes and events to projects and more. We've helped people from all over the
             world raise millions online.</p>
-          <p style="color:#fff;">We use cookies. By continuing to use GoGetFunding, you're agreeing to our <a
-              href="hhttps://gogetfunding.com/privacy-policy/" style="color:#fff;">Use of Cookies</a>.</p>
-        </div>
-      </div>
-      <hr class="hr1">
-      <div class="row">
-        <div class="col-sm-6">
-          <p class="action-btns">
-            <a href="https://gogetfunding.com/discover" class="btn  btn-warning btn-orange"
-              onclick="if (!window.__cfRLUnblockHandlers) return false; ga('send', 'event', 'Discover', 'click', 'footerd-button');">DISCOVER</a>
-            <a href="https://gogetfunding.com/add-campaign" class="btn  btn-warning btn-orange"
-              onclick="if (!window.__cfRLUnblockHandlers) return false; ga('send', 'event', 'Create-campaign', 'click', 'footerc-button');">START
-              FUNDRAISING</a>
-          </p>
-        </div>
-        <div class="col-sm-6">
-          <div class="share-widget">
-            <div id="facebbook-buton">
-              <div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/GoGetFunding"
-                data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"
-                fb-xfbml-state="rendered"
-                fb-iframe-plugin-query="action=like&amp;app_id=182290928516871&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2FGoGetFunding&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false">
-                <span style="vertical-align: bottom; width: 82px; height: 20px;"><iframe name="f1932e6f6d41b14"
-                    width="1000px" height="1000px" title="fb:like Facebook Social Plugin" frameborder="0"
-                    allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media"
-                    src="https://www.facebook.com/v2.0/plugins/like.php?action=like&amp;app_id=182290928516871&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D46%23cb%3Df8aa99d9877d%26domain%3Dgogetfunding.com%26origin%3Dhttps%253A%252F%252Fgogetfunding.com%252Ff2af2638af83ef%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2FGoGetFunding&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false"
-                    style="border: none; visibility: visible; width: 82px; height: 20px;" class=""></iframe></span>
-              </div>
-            </div>
-            <div id="twitter-buton">
-              <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true"
-                allowfullscreen="true" class="twitter-follow-button twitter-follow-button-rendered"
-                style="position: static; visibility: visible; width: 141px; height: 20px;" title="Twitter Follow Button"
-                src="https://platform.twitter.com/widgets/follow_button.0ab153032b20288d9a500659d8c7ba17.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=gogetfunding&amp;show_count=false&amp;show_screen_name=true&amp;size=m&amp;time=1583834829895"
-                data-screen-name="gogetfunding"></iframe>
-              <script defer="defer" type="text/javascript">
-                !function (d, s, id) {
-                  var js, fjs = d.getElementsByTagName(s)[0];
-                  if (!d.getElementById(id)) {
-                    js = d.createElement(s);
-                    js.id = id;
-                    js.async = true;
-                    js.src = "//platform.twitter.com/widgets.js";
-                    fjs.parentNode.insertBefore(js, fjs);
-                  }
-                }(document, "script", "twitter-wjs");
-              </script>
-            </div>
-            <div class="clearfix"> </div>
+
+          <div class="col-sm-6 col-md-12">
+            <p class="copy">© 2020 Copyright GoGetFunding. All Rights Reserved
+              <a
+                href="https://www.facebook.com/v2.0/plugins/error/confirm/like?iframe_referer=&kid_directed_site=false&secure=true&plugin=like&return_params=%7B%22action%22%3A%22like%22%2C%22app_id%22%3A%22182290928516871%22%2C%22channel%22%3A%22https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D46%23cb%3Df16e2f55483be5c%26domain%3Dgogetfunding.com%26origin%3Dhttps%253A%252F%252Fgogetfunding.com%252Ff27e223144f98d%26relation%3Dparent.parent%22%2C%22container_width%22%3A%220%22%2C%22href%22%3A%22https%3A%2F%2Fwww.facebook.com%2FGoGetFunding%22%2C%22layout%22%3A%22button_count%22%2C%22locale%22%3A%22en_US%22%2C%22sdk%22%3A%22joey%22%2C%22share%22%3A%22false%22%2C%22show_faces%22%3A%22false%22%2C%22ret%22%3A%22sentry%22%2C%22act%22%3A%22like%22%7D"><i
+                  class="social-media fab fa-facebook-square"></i></a>
+              <a
+                href="https://twitter.com/intent/follow?ref_src=twsrc%5Etfw&screen_name=gogetfunding&tw_p=followbutton"><i
+                  class="social-media fab fa-twitter"></i></a>
+              <a href="https://www.youtube.com/user/GoGetFunding"><i class="social-media fab fa-youtube"></i></a>
+              <a href="https://www.instagram.com/gogetfunding/"><i class="social-media fab fa-instagram"></i></a>
+            </p>
           </div>
-          <p class="copy">© 2018 Copyright GoGetFunding. All Rights Reserved </p>
         </div>
       </div>
     </div>
+
   </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <!-- ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->

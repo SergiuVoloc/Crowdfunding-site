@@ -29,9 +29,7 @@
     }
     
     /* Add a background color on hover */
-    .btn-group:hover {
-      background-color: #3e8e41;
-    }
+ 
 
         button {
           margin-left: 15px;
@@ -78,15 +76,6 @@
       margin-left: 40px;
       padding: 5px;
       max-width: 1450px;
-        button {
-          margin-left: 15px;
-          padding: 0px;
-          text-align: center;
-            a{
-              margin: 5px;
-              padding: 0px;
-            }
-        }
         div{
           ul{
             li{
@@ -99,4 +88,30 @@
     }
   }
   
+ 
+
+  .btn-main {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #1ad290;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+      &:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
   }
+   
+
+  }
+
+
+  
