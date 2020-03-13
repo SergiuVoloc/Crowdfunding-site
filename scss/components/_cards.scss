@@ -1,0 +1,27 @@
+.album{
+    div{
+        h1{
+            text-align: center;
+            padding-bottom: 30px;
+        }
+    }
+}
+    
+.card-body{
+    padding: 10px;
+}
+
+.container{
+    padding: 5px;
+}
+
+.card-body{
+    a{
+        text-decoration: none;
+        color: black;
+        &:hover{
+            color: rgb(10, 18, 129);
+            text-decoration: underline;
+        }
+    }
+}

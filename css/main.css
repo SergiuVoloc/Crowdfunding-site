@@ -228,3 +228,26 @@
 .social-media:hover {
   color: white;
 }
+
+.album div h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.container {
+  padding: 5px;
+}
+
+.card-body a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-body a:hover {
+  color: #0a1281;
+  text-decoration: underline;
+}
