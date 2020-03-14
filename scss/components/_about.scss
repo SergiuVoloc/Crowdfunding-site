@@ -1,18 +1,37 @@
+body{
+line-height: 1.5!important;
+    color: #6d8191!important;
+    font-size: 16px!important;
+    font-family:GothamBook-Regular !important;
+}
+
+//          XS
+.forbes{
+    width: 100%; 
+}
+
+.nbc{
+    width: 100%;
+    float: unset;
+}
+
+.avatar-img{
+    display: block;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    float: right;
+    width: 32%;
+}
+
+.avatar-text{
+    display: block;
+    float: left;
+    width: 68%;
+}
 
 
 
-    .forbes{
-        width: 100%; 
-    }
-    
-    .nbc{
-        width: 100%;
-        float: unset;
-    }
-
-
-
-
+//          SM
 @media (min-width: 576px) {
     .about{
         min-height: 4305px;
@@ -25,6 +44,7 @@
             margin-left: auto;
             background-color: #fff;
         }
+     
     }
 
     .forbes{
@@ -41,5 +61,27 @@
         width: 50%;
         float: right;
         margin: 0px;
+    }
+
+
+    .avatar-img{
+        display: block;
+        float: right;
+        width: 100%;
+    }
+    
+    .avatar-text{
+        display: block;
+        float: left;
+        width: 100%;
+    }
+
+}
+
+//          MD
+@media(min-width: 768px){
+    .avatar-img{
+        padding-right: 15px !important;
+        padding-left: 15px !important;
     }
 }
