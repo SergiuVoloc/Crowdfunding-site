@@ -1,11 +1,33 @@
 body{
-line-height: 1.5!important;
-    color: #6d8191!important;
-    font-size: 16px!important;
-    font-family:GothamBook-Regular !important;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 19px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
 }
 
 //          XS
+
+.about_content{
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    h1{
+        margin-bottom: 50px;
+        margin-top: 0;
+        color: #484848;
+        font-size: 45px;
+        margin: 25px 0;
+        text-align: left;
+        font-weight: 500;
+        line-height: 1.1;
+    }
+    p{
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+}
+
+
 .forbes{
     width: 100%; 
 }
@@ -27,8 +49,16 @@ line-height: 1.5!important;
     display: block;
     float: left;
     width: 68%;
+    p{
+        span{
+            color: #04ABD9;
+        }
+    }
 }
 
+.row, .mb30, .mt20{
+    margin-bottom: 30px;
+}
 
 
 //          SM

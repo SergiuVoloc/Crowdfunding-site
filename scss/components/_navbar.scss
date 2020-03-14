@@ -2,6 +2,16 @@
 //             Navbar Styles
 // ======================================
 
+.nav-item{
+  a{
+    font-size: 14px;
+    color: black !important;
+    
+  }
+  a:hover{
+    text-decoration: underline !important;
+  }
+}
 
 
 @media (min-width: 992px) {
