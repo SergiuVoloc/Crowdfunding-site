@@ -4,10 +4,6 @@
 
 
 
-@media (min-width: 320px) {
-
-}
-
 @media (min-width: 992px) {
   .navbar{
     margin: 0px;
@@ -108,9 +104,9 @@
       }
     }
 
-    // .navbar-brand{
-    //   color: #fff;
-    // }
+    .navbar-brand{
+      color: #fff !important;
+    }
 
   }
 

@@ -75,6 +75,9 @@
     -webkit-transform: translateY(4px);
             transform: translateY(4px);
   }
+  .navbar-brand {
+    color: #fff !important;
+  }
 }
 
 .sponsors {
@@ -273,4 +276,45 @@
 .project-card:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+}
+
+.forbes {
+  width: 100%;
+}
+
+.nbc {
+  width: 100%;
+  float: unset;
+}
+
+@media (min-width: 576px) {
+  .about {
+    min-height: 4305px;
+    padding: 50px 0px 0px;
+    background-color: #f6f8fa;
+  }
+  .about .container {
+    max-width: 1024px;
+    padding: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+  }
+  .forbes {
+    padding-left: 0px;
+    padding-right: 10px;
+    width: 50%;
+    margin: 0px;
+  }
+  .nbc {
+    padding-left: 10px;
+    padding-right: 0px !important;
+    width: 50%;
+    float: right;
+    margin: 0px;
+  }
+}
+
+* {
+  border: 1px solid #ff0000;
 }

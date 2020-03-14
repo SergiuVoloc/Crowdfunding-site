@@ -3,37 +3,24 @@
 // ======================================
 
 $green: #85bc23;
-$black: #262a33;
-$blue: #3b5b96;
-$skin: #e8e2d6;
-$gray: #999999;
-$blackl: #2d343a;
-$brown: #45413e;
-$white: #ffffff;
 $white_bg:#f8f8ff;
 $orange1:#f3650f;
 $orange2:#f0ad4e;
+$gray_light:#f6f8fa;
 
 // ======================================
 //           Partials Inport
 // ======================================
 
 @import "components/navbar";
-// @import "ui-kit/sale";
-// @import "ui-kit/follow";
-// @import "ui-kit/popular";
-// @import "ui-kit/buttons";
 @import "components/banner";
 @import "components/HowItWorks";
-// @import "ui-kit/products";
-// @import "ui-kit/benefits";
 @import "components/footer";
 @import "components/cards";
+@import "components/about";
 
-// @import "ui-kit/page404";
-
-
-//  used to help figure out position of all elements on the page!
-// * {
-//   border: 1px solid #ff0000;
-// }
+// do not delete> used to help debuging!
+//
+* {
+  border: 1px solid #ff0000;
+}
