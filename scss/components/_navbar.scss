@@ -19,17 +19,15 @@
     margin: 10px;
     padding: 5px;
     .btn-group  {
-      padding: 0; /* Some padding */
-      cursor: pointer; /* Pointer/hand icon */
-      display: block; /* Make the buttons appear below each other */
+      padding: 0; 
+      cursor: pointer; 
+      display: block; 
     }
     
     .btn-group:not(:last-child) {
-      border-bottom: none; /* Prevent double borders */
+      border-bottom: none; 
     }
-    
-    /* Add a background color on hover */
- 
+   
 
         button {
           margin-left: 25px;
@@ -94,22 +92,25 @@
     display: inline-block;
     padding: 15px 25px;
     font-size: 24px;
+    font-weight: bold;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: #fff;
-    background-color: #1ad290;
+    background-color: $orange1;
     border: none;
     border-radius: 10px;
     box-shadow: 0 9px #999;
       &:active {
-        background-color: #3e8e41;
+        background-color: $orange2;
         box-shadow: 0 5px #666;
         transform: translateY(4px);
       }
-  }
-   
+    }
+
+    // .navbar-brand{
+    //   color: #fff;
+    // }
 
   }
 
