@@ -210,6 +210,10 @@
   color: #fff;
 }
 
+#footer-section .copy a {
+  color: #b8d0d9;
+}
+
 .widgettitle {
   color: #fff;
   font-size: 16px;
@@ -220,7 +224,7 @@
 .social-media {
   margin-left: 10px;
   border: none;
-  font-size: 30px;
+  font-size: 25px;
   cursor: pointer;
 }
 
@@ -229,17 +233,36 @@
   color: white;
 }
 
+.menu-item a {
+  color: #b8d0d9;
+}
+
+.widgettitle {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.tick_sprite_img {
+  vertical-align: text-bottom;
+}
+
+.logo-footer {
+  margin-top: -20px;
+  width: 189px;
+  height: 35px;
+}
+
 .album div h1 {
   text-align: center;
   padding-bottom: 30px;
 }
 
-.card-body {
-  padding: 10px;
-}
-
 .container {
   padding: 5px;
+}
+
+.card-body {
+  padding: 10px;
 }
 
 .card-body a {
@@ -250,4 +273,9 @@
 .card-body a:hover {
   color: #0a1281;
   text-decoration: underline;
+}
+
+.project-card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
