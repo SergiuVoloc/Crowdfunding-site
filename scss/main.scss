@@ -1,7 +1,6 @@
 // ======================================
 //             Color Palette
 // ======================================
-
 $green: #85bc23;
 $white_bg:#f8f8ff;
 $orange1:#f3650f;
@@ -11,7 +10,6 @@ $gray_light:#f6f8fa;
 // ======================================
 //             Media Queries
 // ======================================
-
 $SM: 576px;
 $MD: 768px;
 $LG: 992px;
@@ -20,7 +18,6 @@ $XL: 1200px;
 // ======================================
 //           Partials Inport
 // ======================================
-
 @import "components/navbar";
 @import "components/banner";
 @import "components/3steps";
@@ -33,6 +30,6 @@ $XL: 1200px;
 
 // do not delete> used to help debuging!
 //
-* {
-  border: 1px solid #ff0000;
-}
+// * {
+//   border: 1px solid #ff0000;
+// }

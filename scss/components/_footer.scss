@@ -13,10 +13,10 @@
 
 .container {
   margin-left:10vw ;
-  margin-right:10% ;
+  margin-right: 10vw ;
   max-width: 80%;
-  
 }
+
 .container:before{
   display: table;
   content: " ";
@@ -43,24 +43,25 @@
 }
 
 }
- 
+
 .widgettitle{
     color: #fff;
-    font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     min-height: 30px;
-
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .social-media{
   margin-left: 10px;
+  margin-top: 30px !important;
   border: none;
   font-size: 25px;
   cursor: pointer;
-}
-  
-.social-media:hover {
-  color: white;
+  &:hover{
+    color:white;
+  }
 }
 
 .menu-item{
@@ -70,10 +71,7 @@
   }
 }
 
-.widgettitle{
-  font-weight: bold;
-  font-size: 18px;
-}
+
 
 .tick_sprite_img{
   vertical-align: text-bottom;
@@ -86,29 +84,30 @@
   height:35px;
 }
 
-// @media(min-width: SM) {
-// }
 
-// @media (min-width: 768px) {
-//   .footer {
-//     color: $brown;
-//     margin: 0;
-//     padding: 0;
-//     width: 768px;
-//     padding-top: 20px;
-//   }
-// }
+@media (min-width: $LG) {
+  #footer-section{
+    .container{
+      font-size: 14px;
+      margin-left: auto ;
+      margin-right: auto ;
+      width: 80%;
+    }
+    .fwidget{
+      width: fit-content;
+    }
 
-// @media (min-width: 1280px) {
-//   .footer {
-//     color: $brown;
-//     margin: 0;
-//     padding: 0;
-//     width: 1280px;
-//     padding-top: 30px;
-//   }
+  }
+}
 
-//   .f_categories {
-//     margin-left: -20px;
-//   }
-// }
+@media(min-width: $XL){
+  #footer-section{
+    .container{
+      font-size: 16px;
+      margin-left: auto ;
+      margin-right: auto ;
+      width: 80%;
+    }
+  }
+
+}
