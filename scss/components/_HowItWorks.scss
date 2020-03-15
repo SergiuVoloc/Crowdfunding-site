@@ -1,58 +1,60 @@
-.HowItWorks{
-    margin: 5% 0 5% 0;
-    div{
-        h1{
+
+.mini_header{
+    line-height: 1.5!important;
+    color: #6d8191!important;
+    font-size: 12px!important;
+    font-family: gotham_mediumregular;
+    background: #004560 ;
+    .container-fluid{
+        max-width: 970px;
+        .row{
+            h1{
+            font-size: 48px !important;
+            line-height: 1.5!important;
+            color: #ffffff!important;
+            font-family: gotham_mediumregular;
+            box-sizing: border-box;
+            padding-right: 15px;
+            padding-left: 15px;
+            
+            margin: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            width: 960px;
             text-align: center;
-            
-        }
-        
-        img{
-            display: block;
-            margin-left: auto;
-            margin-left: auto;
-            width:70%;
-            min-width: 600px;
-            
-        }
-        div{
-            .row{
-               div{
-                margin-left: auto;
-                margin-left: auto;
+            }
+    
+            p{
+                line-height: 1.5!important;
+                color: #fff;
+                text-align: center;
+                box-sizing: border-box;
+                margin: 0 10px 0 10px;
+                font-family: gotham_mediumregular;
+                font-size: 19px;
+                width: 960px;
                 
-                   p{
-                    display: inline-block;
-                    margin-left: auto;
-                    margin-left: auto;
-                    
-                   }
-               
-               }
             }
         }
     }
-
 }
 
-#ddis {
-    margin: 0 0 0 10px;
-    padding:0 30 30 30px;
-    margin-left:42%;
-    font-weight: bold;
-    font-size: large;
+.video_1{
+    h1{
+        text-align: center;
+    }
 }
-#ddis1 {
-    margin: 0 0 0 10px;
-    padding:0 30 30 30px;
-    margin-left:18%;
-    font-weight: bold;
-    font-size: large;
-}
-#ddis2 {
-    margin: 0 0 0 10px;
-    padding:0 30 30 30px;
-    margin-left:5%;
-    font-weight: bold;
-    max-width: 210px;
-    font-size: large;
+
+
+//                  MD
+@media(min-width: 576px){
+    .embed-responsive-16by9{
+            max-width: 680px;
+            min-width:500px ;
+            max-height: 380px;
+            margin: auto;
+            padding-left: auto;
+            padding-right: auto;
+
+    }
 }

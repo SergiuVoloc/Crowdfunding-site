@@ -14,13 +14,16 @@ $gray_light:#f6f8fa;
 
 @import "components/navbar";
 @import "components/banner";
-@import "components/HowItWorks";
-@import "components/footer";
+@import "components/3steps";
 @import "components/cards";
+@import "components/footer";
+
+//             Pages:
 @import "components/about";
+@import "components/HowItWorks";
 
 // do not delete> used to help debuging!
 //
-// * {
-//   border: 1px solid #ff0000;
-// }
+* {
+  border: 1px solid #ff0000;
+}
