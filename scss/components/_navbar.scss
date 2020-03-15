@@ -1,6 +1,9 @@
 // ======================================
 //             Navbar Styles
 // ======================================
+body{
+  font-family: gotham_mediumregular;
+}
 
 .nav-item{
   a{
@@ -13,6 +16,50 @@
   }
 }
 
+#navbarResponsive{
+  button {
+    width: 155px;
+    height: 50px;
+    padding: 2px;
+    text-align: center;
+    margin:1vw 0 2vw 12vw;
+    a{
+      color: white;
+      width: 150px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+}
+
+.btn-main {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: $orange1;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+    &:active {
+      background-color: $orange2;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+  }
+
+  .navbar-nav{
+    .nav-link{
+    margin-left: 15px !important;
+    font-size: 16px;
+    font-weight: bold;
+    }
+  }
+  
 
 @media (min-width: 992px) {
   .navbar{
@@ -62,9 +109,33 @@
     }
 
     }
+
+    #navbarResponsive{
+      button {
+        width: max-content;
+        height: 50px;
+        padding: 5px;
+        text-align: center;
+        margin:1vw 0 2vw 10px;
+    
+        a{
+          width: 130px;
+          font-size: 16px;
+          font-weight: bold;
+          color: white;
+        }
+      }
+    }
+
+    .navbar-nav{
+      .nav-link{
+      margin-left: 3px !important;
+      font-size: 12px;
+      }
+    }
+
+
   } 
-
-
 
 
 
@@ -97,7 +168,6 @@
       margin: 0 !important;   //figurea out how to make margin 0 on navbar element
     }
   
- 
 
   .btn-main {
     display: inline-block;
@@ -121,6 +191,32 @@
 
     .navbar-brand{
       color: #fff !important;
+    }
+
+
+    #navbarResponsive{
+      button {
+        width: max-content;
+        height: 50px;
+        padding: 5px;
+        text-align: center;
+        margin:1vw 2vw 1vw 2vw;
+    
+        a{
+          width: 130px;
+          font-size: 16px;
+          font-weight: bold;
+          color: white;
+        }
+      }
+    }
+
+    .navbar-nav{
+      .nav-link{
+      margin-left: 15px !important;
+      margin-right: 15px;
+      font-size: 12px;
+      }
     }
 
   }
