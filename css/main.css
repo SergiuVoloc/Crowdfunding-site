@@ -180,24 +180,6 @@ body {
   }
 }
 
-.sponsors {
-  background-color: ghostwhite;
-}
-
-.sponsors div {
-  min-height: 34px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-}
-
-.sponsors div img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-}
-
 .card-img-overlay h1 {
   color: #fac716;
   text-align: center;
@@ -214,6 +196,31 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   font-size: 2vw;
+}
+
+.sponsors .container-fluid img {
+  min-width: 30px;
+}
+
+.sponsors {
+  background-color: ghostwhite;
+}
+
+.sponsors div {
+  min-height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.sponsors div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  max-height: 57px;
+  max-width: 929px;
+  width: 100%;
 }
 
 .simple_steps {
@@ -511,6 +518,56 @@ body {
   text-align: center;
 }
 
+.categories div h1 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 300;
+  line-height: 1.1;
+  color: #3b3b3b;
+  font-family: gotham_mediumregular;
+  text-align: center;
+  font-size: 32px !important;
+  margin: 0 !important;
+}
+
+.categories div img {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+
+.nr1 .container img {
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.nr1 .container h1 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 300;
+  line-height: 1.1;
+  color: #3b3b3b;
+  font-family: gotham_mediumregular;
+  text-align: center;
+  font-size: 32px !important;
+  margin: 0 !important;
+}
+
+.nr1 .container p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.nr1 .container p img {
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+
 @media (min-width: 576px) {
   .embed-responsive-16by9 {
     max-width: 680px;
@@ -519,5 +576,17 @@ body {
     margin: auto;
     padding-left: auto;
     padding-right: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .categories div img {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    display: block;
+    width: 80%;
   }
 }

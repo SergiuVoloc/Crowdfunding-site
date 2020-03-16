@@ -1,0 +1,27 @@
+.sponsors{
+    .container-fluid{
+        img{
+            min-width: 30px;
+        }
+
+    }
+}
+
+.sponsors{
+    background-color: ghostwhite;
+    div{
+      min-height:40px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+      img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        max-height: 57px;
+        max-width: 929px;
+        width: 100%; 
+      }
+    }
+  }
