@@ -56,6 +56,12 @@ body {
   font-weight: bold;
 }
 
+.navbar-toggler {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
 @media (min-width: 992px) {
   .navbar {
     margin: 0px;
@@ -177,6 +183,174 @@ body {
     margin-left: 15px !important;
     margin-right: 15px;
     font-size: 12px;
+  }
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,
+.signupbtn {
+  float: left;
+  margin-left: 2% !important;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 10px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 650px;
+  /* Could be more or less, depending on screen size */
+}
+
+.modal-content .container {
+  padding: 20px;
+  /* Style the horizontal ruler */
+}
+
+.modal-content .container .f_email {
+  margin-right: 90%;
+  float: left;
+}
+
+.modal-content .container hr {
+  width: 100%;
+  display: block;
+  border: 1px solid #b6b2b2 !important;
+  margin-bottom: 25px !important;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+.clearfix {
+  width: 100%;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media (min-width: 576px) {
+  .cancelbtn {
+    float: left;
+    margin-left: 5%;
+  }
+  .signupbtn {
+    margin-left: 2%;
+    margin-right: 5% !important;
+    float: right;
+  }
+}
+
+@media (min-width: 992px) {
+  .modal-content .container {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    font-size: large;
+  }
+  .modal-content .container p {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  .cancelbtn {
+    float: left;
+    margin-left: 10%;
+  }
+  .signupbtn {
+    margin-right: 5% !important;
+    float: right;
+  }
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 11px 45px !important;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  button:hover {
+    opacity: 1;
   }
 }
 
@@ -589,4 +763,8 @@ body {
     display: block;
     width: 80%;
   }
+}
+
+* {
+  border: 1px solid #ff0000;
 }

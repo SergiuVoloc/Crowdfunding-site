@@ -60,6 +60,10 @@ body{
     }
   }
   
+  .navbar-toggler{
+    width: max-content;
+  }
+
 
 @media (min-width: 992px) {
   .navbar{
@@ -117,6 +121,7 @@ body{
         padding: 5px;
         text-align: center;
         margin:1vw 0 2vw 10px;
+        
     
         a{
           width: 130px;
