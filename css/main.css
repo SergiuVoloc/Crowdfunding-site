@@ -675,6 +675,89 @@ body {
   }
 }
 
+body {
+  font-family: gotham_mediumregular;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+.faq_content {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+
+.faq_content h1 {
+  margin-bottom: 20px;
+  margin-top: 0;
+  color: #484848;
+  font-size: 48px;
+  text-align: left;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.faq_content p {
+  margin-bottom: 10px;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card .card-header {
+  padding: 0;
+}
+
+.card .card-header .mb-0 button {
+  margin: 5px;
+  padding: 0 !important;
+  padding-bottom: 5px !important;
+}
+
+.card .card-header .mb-0 button p {
+  color: #004964 !important;
+  font-size: 18px;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.card .card-header .mb-0 button p i {
+  margin-right: 5px;
+  color: #004964;
+}
+
+.accordion_text p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400 !important;
+  font-size: 15px;
+  line-height: 25px;
+  text-decoration: none;
+}
+
+.accordion_text p ul li {
+  font-size: 14px !important;
+  font-weight: 200 !important;
+}
+
+@media (min-width: 576px) {
+  .FAQ {
+    min-height: 4305px;
+    padding: 50px 0px 0px;
+    background-color: #f6f8fa;
+  }
+  .FAQ .container {
+    max-width: 1024px;
+    padding: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+  }
+}
+
 .mini_header {
   line-height: 1.5 !important;
   color: #6d8191 !important;
@@ -790,4 +873,8 @@ body {
     display: block;
     width: 80%;
   }
+}
+
+* {
+  border: 1px solid #ff0000;
 }
